@@ -1,0 +1,31 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.temperature_converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.temperature-converter__input {
+    width: 200px;
+    height: 30px;
+
+    font-size: 18px;
+}
+
+.temperature-converter__label {
+    padding-right: 10px;
+    padding-left: 10px;
+
+    font-size: 20px;
+}
